@@ -9,35 +9,39 @@ body{
 }
 
 .inicio{
-    width: auto;
-    height: 200px;
+    width: 80%;
+    height: 150px;
 }
 
 .logo{
     width: 10%;
-    position: relative;
     padding: 5px 5px;
 }  
 
 header {
+    width: 100%;
+    font-size: 0.6em;
+    font: auto;
 	background: linear-gradient(rgb(218, 183, 137),#FFFFFF);
     margin: 0 0 ;
 }
 
 nav {
     width: auto;
-    position: absolute;
+    position:absolute;
     top: 110px;
     right: 0;
 }
 
 nav li { 
     display: inline;
+    font-size: 50%;
+    width: 50%;
     margin: 30px 40px;
 }  
 
 nav a {
-    width: auto;
+    width: 70px;
     text-transform: uppercase;
 	color: #000000;
 	font-weight: bold;
@@ -82,8 +86,7 @@ nav a:active{
 }
 
 .beneficios {
-    width: 100%;
-	background: linear-gradient(#FFFFFF,#CCCCCE);   
+    width: 100%;  
 	padding: 30px 0;
     text-align: center;
     margin:     0;
@@ -158,4 +161,11 @@ CSS pagina receitas
  text-align: center;
  font-size: 15px;
  margin: 15px 5px;
+}
+.video{    
+    font-family: 'Courier New', Courier, monospace;
+    width: 8%;
+    height: 10% auto;
+    margin-left: 45%;
+    background: transparent;   
 }
