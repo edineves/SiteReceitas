@@ -86,8 +86,7 @@ nav a:active{
 }
 
 .beneficios {
-    width: 100%;
-	background: linear-gradient(#FFFFFF,#CCCCCE);   
+    width: 100%;  
 	padding: 30px 0;
     text-align: center;
     margin:     0;
@@ -163,9 +162,10 @@ CSS pagina receitas
  font-size: 15px;
  margin: 15px 5px;
 }
-.video{
+.video{    
     font-family: 'Courier New', Courier, monospace;
-    width: 25%;
+    width: 8%;
     height: 10% auto;
-    margin-left: 40%;
+    margin-left: 45%;
+    background: transparent;   
 }
