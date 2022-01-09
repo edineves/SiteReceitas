@@ -1,7 +1,8 @@
 body {
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: #000009;
+    width: 100%;
 }
 
 .fundo {
@@ -62,7 +63,8 @@ nav a:active {
     color: lime;
 }
 
-.carrosel {
+
+/*.carrosel {
     width: 100%;
     margin: 1px;
     display: inline-block;
@@ -74,13 +76,19 @@ nav a:active {
     border-width: 2px;
     border-style: solid;
     border-radius: 10px;
-}
+}*/
 
 .principal {
-    font-size: 20px;
+    box-sizing: border-box;
     width: 100%;
-    background: #FFFFFF;
-    padding: 30px 0;
+    height: 700px;
+    font-size: 1.2em;
+    color: #CCCCCE;
+    background-image: url(fundo18.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 5% 5%;
+    padding: 30px;
     text-align: center;
     margin: 0 0 5px;
 }
