@@ -1,4 +1,4 @@
-header {
+    header {
     align-items: center;
     background: #C78845;
     display: flex;
@@ -20,14 +20,10 @@ header nav ul li a {
     text-transform: uppercase;
 }
 
-.gradiente {
-    background: linear-gradient(#FFFFFF, #CCCCCE);
+header nav ul li a#ativo {
+    color: blue;
+    font-weight: bold;
 }
-
-
-/*
-CSS pagina receitas
-*/
 
 .receita1 {
     width: 100%;
