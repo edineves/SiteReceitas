@@ -1,9 +1,9 @@
-    header {
+header {
     align-items: center;
     background: #C78845;
     display: flex;
     justify-content: space-between;
-
+}
 
 header nav ul {
     display: flex;
