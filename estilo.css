@@ -63,21 +63,6 @@ nav a:active {
     color: lime;
 }
 
-
-/*.carrosel {
-    width: 100%;
-    margin: 1px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    padding: 2%;
-    box-sizing: border-box;
-    border-color: #e0a6a6;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-}*/
-
 .principal {
     box-sizing: border-box;
     width: 100%;
