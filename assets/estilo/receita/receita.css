@@ -1,0 +1,25 @@
+.receitas {
+    background-color: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0 0 5rem;
+}
+
+.receita {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    width: calc(35% - 5rem);
+}
+
+.receita-botao {}
+
+.receita-conteudo {}
+
+.receita-descricao {}
+
+.receita-imagem {}
+
+.receita-titulo {}
