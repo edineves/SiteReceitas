@@ -1,24 +1,24 @@
-.menu-lista {
+.menu__lista {
     display: flex;
 }
 
-.menu-item {
+.menu__item {
     list-style: none;
     margin-right: 0;
 }
 
-.menu-link {
+.menu__link {
     color: black;
     margin-right: 1.1rem;
     text-align: none;
     text-transform: uppercase;
 }
 
-.menu-link.ativo {
+.menu__link.ativo {
     color: blue;
     font-weight: bold;
 }
 
-.menu-link:hover {
+.menu__link:hover {
     text-decoration: underline;
 }
