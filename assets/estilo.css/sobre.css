@@ -1,0 +1,10 @@
+.sobre {
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.sobre__titulo {
+    color: rebeccapurple;
+    font-family: Pacifico, cursive;
+    font-size: 3.1875rem;
+}
