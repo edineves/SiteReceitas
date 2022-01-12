@@ -3,7 +3,7 @@
 }
 
 .banner__imagem {
-    height: calc(100vh - 85px);
+    height: calc(100vh - 90px);
     width: 100%;
 }
 
@@ -12,8 +12,8 @@
     color: burlywood;
     font-size: 5.0625rem;
     position: absolute;
-    left: 50%;
     text-shadow: 0 4px 4px;
+    left: 50%;
     top: 50%;
     text-align: center;
     transform: translate(-50%, -50%);

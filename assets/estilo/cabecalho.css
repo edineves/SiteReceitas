@@ -1,9 +1,10 @@
 .cabecalho {
     width: 100%;
+    height: auto;
     align-items: center;
     background: #C78845;
     display: flex;
     justify-content: space-between;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 0rem;
+    padding-right: 3rem;
 }
