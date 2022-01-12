@@ -3,6 +3,7 @@
 }
 
 .banner__imagem {
+    background: url(../img/fundo6.jpg) no-repeat center / cover;
     height: calc(100vh - 90px);
     width: 100%;
 }

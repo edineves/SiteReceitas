@@ -1,13 +1,61 @@
-.quem-somos {}
+.quem-somos {
+    padding: 5rem;
+    text-align: center;
+}
 
-.quem-somos__titulo {}
+.quem-somos__titulo {
+    background: white;
+    color: #8d0606;
+    font-family: Pacifico, cursive;
+    font-size: 3.1870rem;
+    margin-left: 1rem;
+}
 
-.quem-somos__descricao {}
+.quem-somos__descricao {
+    font-weight: 100;
+    font-size: 1.75rem;
+    color: #595959;
+}
 
-.quem-somos__ {}
+.pessoa {
+    display: flex;
+    flex-direction: column;
+}
 
-.quem-somos__ {}
+.pessoas {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
 
-.pessoa {}
+.pessoa__nome {
+    color: #8d0606;
+    font-family: Pacifico, cursive;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
 
-.pessoa__imagem {}
+.pessoa__funcao {
+    color: #595959;
+    font-size: 1.25rem;
+    text-transform: lowercase;
+}
+
+.pessoa__imagem {
+    background-color: #8d0606;
+    background-position: center;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.pessoa__imagem--edison {
+    background-image: url('../../img/Edison.jpg');
+}
+
+.pessoa__imagem--otilia {
+    background-image: url('../../img/Edison.jpg');
+}
