@@ -8,3 +8,9 @@
     font-family: Pacifico, cursive;
     font-size: 3.1875rem;
 }
+
+.sobre__descricao {
+    color: saddlebrown;
+    font-size: 1.75rem;
+    font-weight: 100;
+}
