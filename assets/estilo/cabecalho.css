@@ -1,12 +1,12 @@
 .cabecalho {
-    width: 100%;
+    width: auto;
     height: auto;
     align-items: center;
-    background: #C78845;
+    background: #bfbfbf;
     display: flex;
     justify-content: space-between;
     padding-left: 0rem;
-    padding-right: 3rem;
+    padding-right: 1.5rem;
 }
 
 @media screen and (min-width:0) {
