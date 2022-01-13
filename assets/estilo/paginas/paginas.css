@@ -1,0 +1,30 @@
+.pagina {
+    background: rgb(218, 203, 202);
+    width: 90%;
+    margin: 5% 5%;
+    box-sizing: border-box;
+    border-radius: 5%;
+    border-style: groove;
+}
+
+.pagina__tema {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.pagina__foto {
+    align-items: center;
+    width: 60%;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+.pagina__ingredientes {
+    font-size: 1.1rem;
+}
+
+.pagina__receita {
+    font-size: 1rem;
+}
