@@ -1,10 +1,11 @@
 .quem-somos {
+    background-color: #e5e5e5;
     padding: 5rem;
     text-align: center;
 }
 
 .quem-somos__titulo {
-    background: white;
+    background-color: #e5e5e5;
     color: #8d0606;
     font-family: Pacifico, cursive;
     font-size: 3.1870rem;
@@ -12,12 +13,14 @@
 }
 
 .quem-somos__descricao {
+    background-color: #e5e5e5;
     font-weight: 100;
     font-size: 1.75rem;
     color: #595959;
 }
 
 .pessoa {
+    background-color: #e5e5e5;
     display: flex;
     flex-direction: column;
 }
