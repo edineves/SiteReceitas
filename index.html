@@ -1,0 +1,115 @@
+<!DOCTYPE>
+<html lang="pt-br">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Receitas e Sucos </title>
+
+    <link rel="stylesheet" href="./assets/estilo/normalize.css">
+    <link rel="stylesheet" href="./assets/estilo/reset.css">
+    <link rel="stylesheet" href="./assets/estilo.css">
+    <link rel="stylesheet" href="./assets/estilo/logo.css">
+    <link rel="stylesheet" href="./assets/estilo/cabecalho.css">
+    <link rel="stylesheet" href="./assets/estilo/menu.css">
+    <link rel="stylesheet" href="./assets/estilo/banner.css">
+    <link rel="stylesheet" href="./assets/estilo/sobre.css">
+    <link rel="stylesheet" href="./assets/estilo/receita/receita.css">
+    <link rel="stylesheet" href="./assets/estilo/quemsomos/quemsomos.css">
+    <link rel="stylesheet" href="./assets/estilo/rodape/rodape.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="assets/img/foodjuice.png" alt="logo de food e juice">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__lista"> <a class="menu__link ativo" href="receita.html"> receitas </a></li>
+                <li class="menu__lista"> <a class="menu__link ativo" href="saladas.html"> contato </a></li>
+                <li class="menu__lista"> <a class="menu__link ativo" href="sucos.html"> sucos </a></li>
+                <li class="menu__lista"> <a class="menu__link ativo" href="quemsomos.html"> quem somos </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="banner__imagem"> </div>
+        <h2 class="banner__titulo"> Deliciosas Receitas </h2>
+    </section>
+
+    <section class="sobre">
+        <h2 class="sobre__titulo"> Receitas para fazer em casa </h2>
+        <p class="sobre__descricao"> Confira nossos pratos feitos a partir das principais receitas de Chefs renomados </p>
+    </section>
+
+    <section class="receitas">
+        <div class="receita">
+            <img alt="batatas assadas" class="receita__imagem" src="./assets/img/fundo12.jpg" />
+            <div class="receita__conteudo">
+                <h4 class="receita__titulo"> Batatas assadas com caramelos </h4>
+                <p class="receita__descricao"> Receita deliciosa e que serve como acompanhamento </p>
+                <a href="batata.html"> <button class="receita__botao"> Ver receita </button> </a>
+            </div>
+        </div>
+
+        <div class="receita">
+            <img alt="costelas de cordeiro" class="receita__imagem" src="./assets/img/recceita1.jpg" />
+            <div class="receita__conteudo">
+                <h4 class="receita__titulo"> Costelas de cordeiro com batatas </h4>
+                <p class="receita__descricao"> Receita saborosa com costelas assadas </p>
+                <a href="costelas.html"> <button class="receita__botao"> Ver receita </button></a>
+            </div>
+        </div>
+
+        <div class="receita">
+            <img alt="assado italiano" class="receita__imagem" src="assets/img/fundo2.jpg" />
+            <div class="receita__conteudo">
+                <h4 class="receita__titulo"> Assado Italiano </h4>
+                <p class="receita__descricao"> Deliciosa receita de linguiça e coxas de frango</p>
+                <a href="assado.html"> <button class="receita__botao"> Ver receita </button> </a>
+            </div>
+        </div>
+
+        <div class="receita">
+            <img alt="suco mix" class="receita__imagem" src="assets/img/suco1.jpg" />
+            <div class="receita__conteudo">
+                <h4 class="receita__titulo"> suco mix</h4>
+                <p class="receita__descricao"> Suco de beterraba, maçã e cenouras </p>
+                <a href="sucos.html"> <button class="receita__botao"> Ver receita </button> </a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="quem-somos">
+        <h3 class="quem-somos__titulo">quem somos</h3>
+        <p class="quem-somos__descricao"> Conheça as pessoas envolvidas no projeto da construção deste site </p>
+        <div class="pessoas">
+            <div class="pessoa">
+                <div class="pessoa__imagem pessoa__imagem--edison"></div>
+                <span class="pessoa__nome"> Edison Soares </span>
+                <span class="pessoa__funcao">conteúdo</span>
+            </div>
+            <div class="pessoa">
+                <div class="pessoa__imagem pessoa__imagem--otilia"></div>
+                <span class="pessoa__nome"> Otilia Brasil </span>
+                <span class="pessoa__funcao"> chef </span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        contato: email
+        <div>
+            <a href="https://youtu.be/rtq7hQ5Own4"> <img class="video" src="youtube.png" alt=""> </a>
+        </div>
+        <p> &copy; copyright food and Juice -2022 </p>
+    </footer>
+
+</body>
+
+</html>
