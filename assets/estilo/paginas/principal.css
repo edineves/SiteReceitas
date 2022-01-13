@@ -1,0 +1,8 @@
+.principal {
+    width: 90%;
+    margin-left: 5% 10%;
+    box-sizing: border-box;
+    border: red;
+    background-color: rosybrown;
+    padding: 10% 15%;
+}
