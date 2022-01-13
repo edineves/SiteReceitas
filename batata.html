@@ -3,35 +3,42 @@ html>
 <html lang="pt-br">
 
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Novas Receitas </title>
+    <title> Receitas e Sucos </title>
 
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="estilo.css">
-
+    <link rel="stylesheet" href="./assets/estilo/normalize.css">
+    <link rel="stylesheet" href="./assets/estilo/reset.css">
+    <link rel="stylesheet" href="./assets/estilo.css">
+    <link rel="stylesheet" href="./assets/estilo/logo.css">
+    <link rel="stylesheet" href="./assets/estilo/cabecalho.css">
+    <link rel="stylesheet" href="./assets/estilo/menu.css">
+    <link rel="stylesheet" href="./assets/estilo/banner.css">
+    <link rel="stylesheet" href="./assets/estilo/sobre.css">
+    <link rel="stylesheet" href="./assets/estilo/receita/receita.css">
+    <link rel="stylesheet" href="./assets/estilo/quemsomos/quemsomos.css">
+    <link rel="stylesheet" href="./assets/estilo/rodape/rodape.css">
 </head>
 
 <body>
-    <header>
-        <div class="inicio">
-            <h1> <img class="logo" src="foodjuice.png" alt=""></h1>
-            <nav>
-                <ul>
-                    <li> <a href="index.html"> Home </a></li>
-                    <li> <a href="receita.html"> Receitas </a> </li>
-                    <li> <a href="salada.html"> Saladas </a></li>
-                    <li> <a href="sucos.html"> Sucos </a></li>
-                </ul>
-            </nav>
-        </div>
-
+    <header class="cabecalho">
+        <img class="logo" src="assets/img/foodjuice.png" alt="logo de food e juice">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__lista"> <a class="menu__link ativo" href="receita.html"> receitas </a></li>
+                <li class="menu__lista"> <a class="menu__link ativo" href="saladas.html"> contato </a></li>
+                <li class="menu__lista"> <a class="menu__link ativo" href="sucos.html"> Sucos </a></li>
+                <li class="menu__lista"> <a class="menu__link ativo" href="quemsomos.html"> Quem somos </a></li>
+            </ul>
+        </nav>
     </header>
     <main class="gradiente">
         <ul class="receita1">
             <li>
-
                 <h2> Batatas assadas com caramelo & ameixas</h2>
                 <img src="assets/img/fundo12.jpg" width="95%">
                 <p class=" itens "> Ingredientes </p><br>
