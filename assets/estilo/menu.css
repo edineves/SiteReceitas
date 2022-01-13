@@ -4,7 +4,7 @@
 
 @media screen and (min-width:0) {
     .menu__lista {
-        font-size: 0.81rem;
+        font-size: 0.70rem;
         display: flex;
         flex-wrap: wrap;
     }
@@ -12,6 +12,7 @@
 
 @media screen and (min-width: 768px) {
     .menu__lista {
+        font-size: 1rem;
         display: flex;
     }
 }
@@ -29,7 +30,7 @@
 }
 
 .menu__link.ativo {
-    color: blue;
+    color: rgb(62, 62, 83);
     font-weight: bold;
 }
 
