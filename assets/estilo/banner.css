@@ -10,7 +10,7 @@
 
 @media screen and ( min-width: 0) {
     .banner__imagem {
-        height: calc(55vh - 70px);
+        height: calc(45vh - 70px);
         width: 100%;
     }
 }
