@@ -1,7 +1,8 @@
 <!DOCTYPE 
 html>
 <html lang="pt-br">
-<head>  
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,49 +12,39 @@ html>
     <link rel="stylesheet" href="estilo.css">
 </head>
 
-    <body>
-        <header> 
-            <div class="inicio">
-                <h1> <img class="logo" src="foodjuice.png" alt=""></h1>
-                <nav>
-                    <ul>
-                        <li> <a href="index.html"> Home </a></li>                    
-                        <li> <a href="receita.html"> Receitas </a> </li>
-                        <li> <a href="salada.html"> Saladas </a></li>
-                        <li> <a href="sucos.html"> Sucos </a></li>
-                    </ul>
-                </nav>
-            </div>
-
-        </header>
-        <main class="gradiente">        
-            <ul class="receita1">
-                <li>
-                    <h2> Suco Mix </h2>
-                    <img src="suco1.jpg" width="95%">
-                    <p class=" itens "> Ingredientes </p><br>
-                    <p class="itens1"> 
-                        . 1 copo de água mineral  <br>
-                        . 1 talo de aipo  <br>
-                        . 1/2 beterraba <br>
-                        . 3 cenouras <br>
-                        . 1 maçã vermelha <br>
-                        . 1 colher (sobremesa) de salsa picada <br>
-                        . 1 colher (sopa) de grão de trigo <br> 
-                    </p><br>        
-                    <p class=" itens ">  Modo de Preparo </p><br>
-                    <P class="itens1"> 
-                        Descasque e rale as cenouras a beterraba. <br>
-                        Peque a maçã com cascas e retire as sementes. <br>
-                        Coloque todos os Ingredientes na centrífuga acrescentando água aos poucos, por fim coe e consuma imediatamente 
-                        (Sucos e Saladas) <br>
-                    </p> <br>         
-                </li>                   
+<body>
+    <header>
+        <img class="logo" src="assets/img/foodjuice.png" alt="logo de food e juice">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__lista"> <a class="menu__link ativo" href="receita.html"> receitas </a></li>
+                <li class="menu__lista"> <a class="menu__link ativo" href="saladas.html"> contato </a></li>
+                <li class="menu__lista"> <a class="menu__link ativo" href="sucos.html"> Sucos </a></li>
+                <li class="menu__lista"> <a class="menu__link ativo" href="quemsomos.html"> Quem somos </a></li>
             </ul>
-        </main>  
-        <footer class="footer">
-            <img src="foodjuice.png" alt=" logotipo " id="logo1">
-            <p> &copy; Copyright food and Juice -2021 </p>
-        </footer>
-    </body>
+        </nav>
+    </header>
+
+    <main>
+        <ul class="receita1">
+            <li>
+                <h2> Suco Mix </h2>
+                <img src="assets/img/suco1.jpg" width="95%">
+                <p class=" itens "> Ingredientes </p><br>
+                <p class="itens1">
+                    . 1 copo de água mineral <br> . 1 talo de aipo <br> . 1/2 beterraba <br> . 3 cenouras <br> . 1 maçã vermelha <br> . 1 colher (sobremesa) de salsa picada <br> . 1 colher (sopa) de grão de trigo <br>
+                </p><br>
+                <p class=" itens "> Modo de Preparo </p><br>
+                <P class="itens1">
+                    Descasque e rale as cenouras a beterraba. <br> Peque a maçã com cascas e retire as sementes. <br> Coloque todos os Ingredientes na centrífuga acrescentando água aos poucos, por fim coe e consuma imediatamente (Sucos e Saladas) <br>
+                </p> <br>
+            </li>
+        </ul>
+    </main>
+    <footer class="footer">
+        <img src="foodjuice.png" alt=" logotipo " id="logo1">
+        <p> &copy; Copyright food and Juice -2021 </p>
+    </footer>
+</body>
+
 </html>
