@@ -1,7 +1,14 @@
 .rodape {
     background: #bfbfbf;
-    color: #fdfdfd;
+    color: #302b2b;
     text-align: left;
-    padding: 1.52rem;
+    padding: 2rem;
     text-transform: lowercase;
+}
+
+.rodape__video {
+    background: #bfbfbf;
+    text-align: left;
+    padding: 0rem;
+    width: 10%;
 }
