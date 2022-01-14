@@ -31,21 +31,22 @@
 
 .video {
     display: inline-block;
+    padding: 2%;
     margin-left: 33%;
     border: 1px;
-    border-radius: 1%;
+    border-radius: 5%;
 }
 
 @media screen and ( min-width: 0) {
     .video {
-        height: 5%;
-        width: 10%;
+        height: auto;
+        width: 33%;
     }
 }
 
 @media screen and ( min-width: 760px) {
     .video {
-        height: 15%;
+        height: auto;
         width: 33%;
     }
 }
