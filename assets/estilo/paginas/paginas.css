@@ -41,6 +41,7 @@
     padding: 2%;
     margin-left: 33%;
     border: 1px;
+    border-radius: 15%;
     width: 60%;
 }
 
@@ -58,4 +59,25 @@
         width: 40%;
         margin-left: 30%;
     }
+}
+
+.rodape {
+    background: #bfbfbf;
+    color: #302b2b;
+    text-align: left;
+    padding: 2rem;
+    text-transform: lowercase;
+}
+
+.rodape__video {
+    background: #bfbfbf;
+    text-align: left;
+    padding: 0rem;
+    width: 10%;
+}
+
+.redessociais {
+    size: 15%;
+    width: 4%;
+    margin-left: 10%;
 }
