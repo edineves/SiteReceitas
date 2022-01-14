@@ -77,7 +77,24 @@
 }
 
 .redessociais {
+    display: inline block;
     size: 15%;
     width: 4%;
     margin-left: 10%;
+}
+
+@media screen and (min-width:0) {
+    .redessociais {
+        display: inline-block;
+        width: 1.1rem;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .redessociais {
+        size: 15%;
+        width: 4%;
+        margin-left: 10%;
+    }
 }
