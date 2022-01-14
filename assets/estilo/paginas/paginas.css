@@ -29,4 +29,23 @@
     font-size: 1rem;
 }
 
-.video {}
+.video {
+    display: inline-block;
+    margin-left: 33%;
+    border: 1px;
+    border-radius: 1%;
+}
+
+@media screen and ( min-width: 0) {
+    .video {
+        height: 5%;
+        width: 10%;
+    }
+}
+
+@media screen and ( min-width: 760px) {
+    .video {
+        height: 15%;
+        width: 33%;
+    }
+}
