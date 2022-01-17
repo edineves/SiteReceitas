@@ -60,6 +60,7 @@
     font-family: Pacifico, cursive;
     font-size: 2rem;
     margin: 1rem 0;
+    text-shadow: 2px 10px 10px rgb(167, 136, 136);
 }
 
 .pessoa__funcao {
@@ -72,6 +73,7 @@
     background-color: #8d0606;
     background-position: center;
     border-radius: 100%;
+    box-shadow: 2px 10px 10px rgb(167, 136, 136);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;

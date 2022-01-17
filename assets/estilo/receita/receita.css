@@ -92,13 +92,26 @@
 @media screen and ( min-width: 0) {
     .receita__imagem {
         background-color: #e5e5e5;
-        margin-left: 10%;
+        margin-left: auto;
         width: 95%;
+        size-adjust: auto;
     }
 }
+
+@media screen and ( min-width: 700px) {
+    .receita__imagem {
+        background-color: #e5e5e5;
+        margin-left: auto;
+        width: 95%;
+        size-adjust: auto;
+    }
+}
+
+
 
 .receita__titulo {
     background-color: #e5e5e5;
     text-align: center;
     font-size: 1.2rem;
+    margin: auto;
 }

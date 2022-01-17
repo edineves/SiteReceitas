@@ -5,23 +5,24 @@
 .banner__imagem {
     background-color: #e5e5e5;
     background: url(../img/fundo20.jpg) no-repeat center / cover;
-    height: calc(100vh - 70px);
     width: 100%;
 }
 
 @media screen and ( min-width: 0) {
     .banner__imagem {
-        height: calc(45vh - 70px);
+        height: calc(95vh - 70px);
         width: 100%;
     }
 }
 
 @media screen and ( min-width: 760px) {
     .banner__imagem {
-        height: calc(95vh - 70px);
+        height: calc(100vh - 70px);
         width: 100%;
+        padding-top: 20%;
     }
 }
+
 
 .banner__titulo {
     color: rgb(226, 212, 194);
